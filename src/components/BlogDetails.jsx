@@ -10,7 +10,7 @@ const BlogDetails = ({post}) => {
 
         <p className='text-sm mt-[4px]'>
             By
-            <span  className='italic'>{post.author}</span>
+            <span  className='italic'>{ post.author}</span>
             on {" "}
             <NavLink to={`/categories/${post.category.replaceAll(" " , "-")}`}>
                 <span className='underline font-bold'>{post.category}</span>
